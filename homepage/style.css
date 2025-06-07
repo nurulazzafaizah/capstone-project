@@ -1,0 +1,219 @@
+.home-page {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.home-page .regist-fast {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 5px 20px;
+  position: absolute;
+  top: 830px;
+  left: 94px;
+  background-color: #06b0ff;
+  border-radius: 20px;
+}
+
+.home-page .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inknut Antiqua-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 50px;
+  white-space: nowrap;
+}
+
+.home-page .login-fast {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 5px 20px;
+  position: absolute;
+  top: 830px;
+  left: 381px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  border: 3px solid;
+  border-color: #06b0ff;
+}
+
+.home-page .div {
+  position: relative;
+  width: fit-content;
+  margin-top: -3.00px;
+  font-family: "Inknut Antiqua-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 50px;
+  white-space: nowrap;
+}
+
+.home-page .overlap {
+  position: absolute;
+  width: 489px;
+  height: 481px;
+  top: 176px;
+  left: 1247px;
+}
+
+.home-page .element-target {
+  position: absolute;
+  width: 298px;
+  height: 291px;
+  top: 190px;
+  left: 155px;
+  object-fit: cover;
+}
+
+.home-page .element-puzzle {
+  position: absolute;
+  width: 225px;
+  height: 190px;
+  top: 42px;
+  left: 0;
+  object-fit: cover;
+}
+
+.home-page .trophy-perspective {
+  position: absolute;
+  width: 277px;
+  height: 273px;
+  top: 0;
+  left: 212px;
+  object-fit: cover;
+}
+
+.home-page .teks {
+  position: absolute;
+  top: 250px;
+  left: 93px;
+  -webkit-text-stroke: 1px #000000;
+  font-family: "Inknut Antiqua-Bold", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: 50px;
+}
+
+.home-page .span {
+  font-weight: 700;
+}
+
+.home-page .text-wrapper-2 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.home-page .text-wrapper-3 {
+  font-family: "Inknut Antiqua-SemiBold", Helvetica;
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.home-page .text-wrapper-4 {
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.home-page .teks-2 {
+  position: absolute;
+  top: 63px;
+  left: 94px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home-page .navbar {
+  position: absolute;
+  width: 490px;
+  height: 29px;
+  top: 64px;
+  left: 1353px;
+}
+
+.home-page .text-wrapper-5 {
+  left: 0;
+  position: absolute;
+  top: -1px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home-page .text-wrapper-6 {
+  left: 130px;
+  position: absolute;
+  top: -1px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home-page .text-wrapper-7 {
+  left: 281px;
+  position: absolute;
+  top: -1px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home-page .text-wrapper-8 {
+  position: absolute;
+  top: -1px;
+  left: 395px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.logo-container {
+  display: flex;
+  justify-content: center; 
+  align-items: flex-start;
+  position: absolute;
+  top: 30px; 
+  left: 0;
+  right: 0;
+  max-width: 90%;
+}
+
+body {
+  background: linear-gradient(95deg, #ff66cc, #99ccff);
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
