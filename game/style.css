@@ -1,0 +1,891 @@
+.game-page {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.game-page .overlap-wrapper {
+  width: 1920px;
+  height: 1080px;
+}
+
+.game-page .overlap {
+  position: relative;
+  height: 1074px;
+  background-image: url(./img/framebg.svg);
+  background-size: 100% 100%;
+}
+
+.game-page .overlap-group {
+  position: absolute;
+  width: 1355px;
+  height: 53px;
+  top: 151px;
+  left: 523px;
+}
+
+.game-page .rec-bar {
+  position: absolute;
+  width: 1355px;
+  height: 52px;
+  top: 1px;
+  left: 0;
+  border-radius: 20px 0px 0px 20px;
+  box-shadow: 0px 4px 4px #00000040;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.62) 0%,
+    rgba(166, 175, 244, 1) 49%
+  );
+}
+
+.game-page .navbar {
+  position: absolute;
+  width: 1230px;
+  height: 52px;
+  top: 0;
+  left: 69px;
+}
+
+.game-page .text-wrapper {
+  width: 102px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  font-family: "Inknut Antiqua-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.game-page .div {
+  width: 115px;
+  left: 217px;
+  position: absolute;
+  top: 0;
+  font-family: "Inknut Antiqua-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.game-page .text-wrapper-2 {
+  width: 67px;
+  left: 447px;
+  position: absolute;
+  top: 0;
+  font-family: "Inknut Antiqua-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.game-page .text-wrapper-3 {
+  width: 83px;
+  left: 629px;
+  position: absolute;
+  top: 0;
+  font-family: "Inknut Antiqua-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.game-page .text-wrapper-4 {
+  width: 180px;
+  left: 827px;
+  position: absolute;
+  top: 0;
+  font-family: "Inknut Antiqua-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.game-page .text-wrapper-5 {
+  width: 96px;
+  left: 1122px;
+  position: absolute;
+  top: 0;
+  font-family: "Inknut Antiqua-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.game-page .overlap-2 {
+  position: absolute;
+  width: 420px;
+  height: 133px;
+  top: 70px;
+  left: 82px;
+}
+
+.game-page .play {
+  display: flex;
+  width: 420px;
+  height: 51px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 82px;
+  left: 0;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px #00000040;
+  background: linear-gradient(
+    152deg,
+    rgba(115, 211, 255, 1) 0%,
+    rgba(13, 150, 213, 1) 82%
+  );
+}
+
+.game-page .text-wrapper-6 {
+  position: relative;
+  width: fit-content;
+  margin-top: -14.50px;
+  margin-bottom: -6.50px;
+  -webkit-text-stroke: 3px #000000;
+  font-family: "Inknut Antiqua-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.game-page .text-wrapper-7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Inknut Antiqua-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.game-page .overlap-3 {
+  position: absolute;
+  width: 1796px;
+  height: 345px;
+  top: 701px;
+  left: 82px;
+}
+
+.game-page .background-typing {
+  position: absolute;
+  width: 1796px;
+  height: 345px;
+  top: 0;
+  left: 0;
+}
+
+.game-page .overlap-4 {
+  position: relative;
+  width: 1834px;
+  height: 359px;
+  top: 23px;
+}
+
+.game-page .back-typing-board {
+  position: absolute;
+  width: 1796px;
+  height: 281px;
+  top: 0;
+  left: 0;
+  background-color: #e7b0ea;
+  border-radius: 9px;
+}
+
+.game-page .group {
+  position: absolute;
+  width: 259px;
+  height: 257px;
+  top: 102px;
+  left: 1575px;
+}
+
+.game-page .overlap-5 {
+  position: relative;
+  width: 257px;
+  height: 257px;
+}
+
+.game-page .overlap-group-wrapper {
+  position: absolute;
+  width: 257px;
+  height: 257px;
+  top: 0;
+  left: 0;
+}
+
+.game-page .overlap-group-2 {
+  position: relative;
+  width: 195px;
+  height: 175px;
+  top: 20px;
+  left: 31px;
+}
+
+.game-page .polygon {
+  position: absolute;
+  width: 186px;
+  height: 166px;
+  top: 9px;
+  left: 9px;
+}
+
+.game-page .img {
+  position: absolute;
+  width: 186px;
+  height: 166px;
+  top: 0;
+  left: 0;
+}
+
+.game-page .text-wrapper-8 {
+  position: absolute;
+  top: 145px;
+  left: 93px;
+  font-family: "Inknut Antiqua-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.game-page .text-wrapper-9 {
+  position: absolute;
+  top: 27px;
+  left: 19px;
+  font-family: "Inknut Antiqua-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.game-page .text-wrapper-10 {
+  position: absolute;
+  top: 108px;
+  left: 19px;
+  font-family: "Inknut Antiqua-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.game-page .typing-board {
+  position: absolute;
+  width: 1478px;
+  height: 215px;
+  top: 44px;
+  left: 131px;
+  background-color: #ffffff;
+  border-radius: 9px;
+}
+
+.game-page .overlap-6 {
+  position: absolute;
+  width: 1796px;
+  height: 481px;
+  top: 220px;
+  left: 82px;
+}
+
+.game-page .rectangle {
+  position: absolute;
+  width: 1793px;
+  height: 471px;
+  top: 10px;
+  left: 3px;
+  background-color: #000000;
+}
+
+.game-page .road {
+  position: absolute;
+  width: 1796px;
+  height: 96px;
+  top: 0;
+  left: 0;
+}
+
+.game-page .overlap-7 {
+  position: relative;
+  height: 476px;
+  top: 4px;
+}
+
+.game-page .roads {
+  position: absolute;
+  width: 1796px;
+  height: 476px;
+  top: 0;
+  left: 0;
+}
+
+.game-page .frame-wrapper {
+  height: 96px;
+}
+
+.game-page .frame {
+  position: relative;
+  width: 1796px;
+  height: 96px;
+}
+
+.game-page .mask-group {
+  position: absolute;
+  width: 1796px;
+  height: 84px;
+  top: 0;
+  left: 0;
+}
+
+.game-page .group-wrapper {
+  position: absolute;
+  width: 1796px;
+  height: 84px;
+  top: 98px;
+  left: 0;
+}
+
+.game-page .div-wrapper {
+  position: absolute;
+  width: 1796px;
+  height: 84px;
+  top: 196px;
+  left: 0;
+}
+
+.game-page .roads-2 {
+  position: absolute;
+  width: 1796px;
+  height: 84px;
+  top: 294px;
+  left: 0;
+}
+
+.game-page .roads-3 {
+  position: absolute;
+  width: 1796px;
+  height: 84px;
+  top: 392px;
+  left: 0;
+}
+
+.game-page .rectangle-2 {
+  position: absolute;
+  width: 473px;
+  height: 481px;
+  top: 0;
+  left: 0;
+  box-shadow: 0px 4px 4px #00000040;
+  background: linear-gradient(
+    90deg,
+    rgba(217, 217, 217, 1) 0%,
+    rgba(115, 115, 115, 0) 83%
+  );
+  opacity: 0.62;
+}
+
+.game-page .motor {
+  position: absolute;
+  width: 113px;
+  height: 463px;
+  top: 4px;
+  left: 116px;
+}
+
+.game-page .start-arena {
+  position: absolute;
+  width: 91px;
+  height: 481px;
+  top: 0;
+  left: 277px;
+  background-color: #8b3232;
+}
+
+.game-page .group-2 {
+  position: absolute;
+  width: 58px;
+  height: 409px;
+  top: 25px;
+  left: 17px;
+}
+
+.game-page .efek-terompet {
+  position: absolute;
+  width: 323px;
+  height: 323px;
+  top: 54px;
+  left: 179px;
+  border-radius: 161.5px;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.game-page .terompet {
+  position: absolute;
+  width: 156px;
+  height: 156px;
+  top: 79px;
+  left: 89px;
+  object-fit: cover;
+}
+/* Original CSS code here */
+
+.game-page {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.game-page .overlap-wrapper {
+  width: 100%;
+  max-width: 1920px;
+  height: 1080px;
+}
+
+.game-page .overlap {
+  position: relative;
+  height: 1074px;
+  background-image: url(./img/framebg.svg);
+  background-size: cover;
+  background-position: center;
+}
+
+.game-page .overlap-group {
+  position: absolute;
+  width: 100%;
+  max-width: 1355px;
+  height: 53px;
+  top: 151px;
+  right: 42px;
+}
+
+.game-page .rec-bar {
+  position: absolute;
+  width: 100%;
+  height: 52px;
+  top: 1px;
+  left: 0;
+  border-radius: 20px 0px 0px 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.62) 0%,
+    rgba(166, 175, 244, 1) 49%
+  );
+}
+
+.game-page .navbar {
+  position: absolute;
+  width: 90%;
+  height: 52px;
+  top: 0;
+  left: 69px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.game-page .navbar a {
+  font-family: "Inknut Antiqua-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #000000;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.game-page .overlap-2 {
+  position: absolute;
+  width: 420px;
+  height: 133px;
+  top: 70px;
+  left: 82px;
+}
+
+.game-page .play {
+  display: flex;
+  width: 100%;
+  height: 51px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 82px;
+  left: 0;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(
+    152deg,
+    rgba(115, 211, 255, 1) 0%,
+    rgba(13, 150, 213, 1) 82%
+  );
+  cursor: pointer;
+}
+
+.game-page .text-wrapper-6 {
+  position: relative;
+  width: fit-content;
+  margin-top: -14.50px;
+  margin-bottom: -6.50px;
+  -webkit-text-stroke: 3px #000000;
+  font-family: "Inknut Antiqua-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.game-page .text-wrapper-7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Inknut Antiqua-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #000000;
+  font-size: 32px;
+}
+
+.game-page .overlap-3 {
+  position: absolute;
+  width: 100%;
+  max-width: 1796px;
+  height: 345px;
+  bottom: 28px;
+  left: 82px;
+}
+
+.game-page .background-typing {
+  position: absolute;
+  width: 100%;
+  height: 345px;
+  top: 0;
+  left: 0;
+}
+
+.game-page .overlap-4 {
+  position: relative;
+  width: 100%;
+  height: 359px;
+  top: 23px;
+}
+
+.game-page .back-typing-board {
+  position: absolute;
+  width: 100%;
+  height: 281px;
+  top: 0;
+  left: 0;
+  background-color: #e7b0ea;
+  border-radius: 9px;
+}
+
+.game-page .group {
+  position: absolute;
+  width: 259px;
+  height: 257px;
+  top: 102px;
+  right: 0;
+}
+
+.game-page .overlap-5 {
+  position: relative;
+  width: 257px;
+  height: 257px;
+}
+
+.game-page .overlap-group-wrapper {
+  position: absolute;
+  width: 257px;
+  height: 257px;
+  top: 0;
+  left: 0;
+}
+
+.game-page .overlap-group-2 {
+  position: relative;
+  width: 195px;
+  height: 175px;
+  top: 20px;
+  left: 31px;
+}
+
+.game-page .polygon {
+  position: absolute;
+  width: 186px;
+  height: 166px;
+  top: 9px;
+  left: 9px;
+}
+
+.game-page .img {
+  position: absolute;
+  width: 186px;
+  height: 166px;
+  top: 0;
+  left: 0;
+}
+
+.game-page .text-wrapper-8,
+.game-page .text-wrapper-9,
+.game-page .text-wrapper-10 {
+  position: absolute;
+  font-family: "Inknut Antiqua-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.game-page .text-wrapper-8 {
+  top: 145px;
+  left: 93px;
+}
+
+.game-page .text-wrapper-9 {
+  top: 27px;
+  left: 19px;
+}
+
+.game-page .text-wrapper-10 {
+  top: 108px;
+  left: 19px;
+}
+
+.game-page .typing-board {
+  position: absolute;
+  width: 82%;
+  height: 215px;
+  top: 44px;
+  left: 131px;
+  background-color: #ffffff;
+  border-radius: 9px;
+}
+
+.game-page .overlap-6 {
+  position: absolute;
+  width: 100%;
+  max-width: 1796px;
+  height: 481px;
+  top: 220px;
+  left: 82px;
+}
+
+.game-page .rectangle {
+  position: absolute;
+  width: 99.8%;
+  height: 471px;
+  top: 10px;
+  left: 3px;
+  background-color: #000000;
+}
+
+.game-page .road {
+  position: absolute;
+  width: 100%;
+  height: 96px;
+  top: 0;
+  left: 0;
+}
+
+.game-page .overlap-7 {
+  position: relative;
+  height: 476px;
+  top: 4px;
+}
+
+.game-page .roads,
+.game-page .group-wrapper,
+.game-page .div-wrapper,
+.game-page .roads-2,
+.game-page .roads-3 {
+  position: absolute;
+  width: 100%;
+  height: 84px;
+  left: 0;
+}
+
+.game-page .roads {
+  top: 0;
+}
+.game-page .group-wrapper {
+  top: 98px;
+}
+.game-page .div-wrapper {
+  top: 196px;
+}
+.game-page .roads-2 {
+  top: 294px;
+}
+.game-page .roads-3 {
+  top: 392px;
+}
+
+.game-page .frame-wrapper {
+  height: 96px;
+}
+
+.game-page .frame {
+  position: relative;
+  width: 100%;
+  height: 96px;
+}
+
+.game-page .mask-group {
+  position: absolute;
+  width: 100%;
+  height: 84px;
+  top: 0;
+  left: 0;
+}
+
+.game-page .rectangle-2 {
+  position: absolute;
+  width: 26.3%;
+  height: 481px;
+  top: 0;
+  left: 0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(
+    90deg,
+    rgba(217, 217, 217, 1) 0%,
+    rgba(115, 115, 115, 0) 83%
+  );
+  opacity: 0.62;
+}
+
+.game-page .motor {
+  position: absolute;
+  width: 113px;
+  height: 463px;
+  top: 4px;
+  left: 116px;
+}
+
+.game-page .start-arena {
+  position: absolute;
+  width: 91px;
+  height: 481px;
+  top: 0;
+  left: 277px;
+  background-color: #8b3232;
+}
+
+.game-page .group-2 {
+  position: absolute;
+  width: 58px;
+  height: 409px;
+  top: 25px;
+  left: 17px;
+}
+
+.game-page .efek-terompet {
+  position: absolute;
+  width: 323px;
+  height: 323px;
+  top: 54px;
+  left: 179px;
+  border-radius: 50%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.game-page .terompet {
+  position: absolute;
+  width: 156px;
+  height: 156px;
+  top: 79px;
+  left: 89px;
+  object-fit: cover;
+}
+
+@media (max-width: 1200px) {
+  .game-page .overlap-wrapper {
+    height: auto;
+  }
+
+  .game-page .overlap {
+    height: auto;
+  }
+
+  .game-page .overlap-group {
+    width: 90%;
+    right: 5%;
+  }
+
+  .game-page .navbar {
+    width: 100%;
+    left: 0;
+    padding: 0 20px;
+  }
+
+  .game-page .overlap-3,
+  .game-page .overlap-6 {
+    width: 90%;
+    left: 5%;
+  }
+
+  .game-page .typing-board {
+    width: 90%;
+    left: 5%;
+  }
+}
+
+@media (max-width: 768px) {
+  .game-page .navbar {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .game-page .navbar a {
+    margin: 5px;
+  }
+
+  .game-page .overlap-2 {
+    width: 90%;
+    left: 5%;
+  }
+
+  .game-page .play {
+    width: 100%;
+  }
+
+  .game-page .motor,
+  .game-page .start-arena,
+  .game-page .efek-terompet {
+    display: none;
+  }
+}
+body {
+  background: linear-gradient(95deg, #ff66cc, #99ccff);
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
