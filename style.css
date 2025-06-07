@@ -1,0 +1,546 @@
+.dashboard {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.dashboard .div {
+  overflow: hidden;
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+}
+
+.dashboard .overlap {
+  position: absolute;
+  width: 1146px;
+  height: 980px;
+  top: 50px;
+  left: 322px;
+}
+
+.dashboard .overlap-group {
+  position: absolute;
+  width: 871px;
+  height: 980px;
+  top: 0;
+  left: 0;
+}
+
+.dashboard .overlap-2 {
+  position: absolute;
+  width: 705px;
+  height: 974px;
+  top: 6px;
+  left: 0;
+}
+
+.dashboard .profile-main-name {
+  position: absolute;
+  width: 350px;
+  height: 385px;
+  top: 0;
+  left: 0;
+}
+
+.dashboard .bg-keywords {
+  position: absolute;
+  width: 673px;
+  height: 593px;
+  top: 381px;
+  left: 32px;
+}
+
+.dashboard .text-wrapper {
+  position: absolute;
+  width: 308px;
+  top: 375px;
+  left: 193px;
+  -webkit-text-stroke: 2px #000000;
+  font-family: "Inknut Antiqua-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.dashboard .kata-benda {
+  position: absolute;
+  width: 281px;
+  height: 495px;
+  top: 448px;
+  left: 71px;
+  background-color: #fcfbff;
+  border-radius: 25px;
+}
+
+.dashboard .benda {
+  position: absolute;
+  width: 232px;
+  height: 74px;
+  top: 48px;
+  left: 25px;
+}
+
+.dashboard .div-wrapper {
+  display: inline-flex;
+  height: 74px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  background-color: #6bb9ff;
+  border-radius: 23px;
+}
+
+.dashboard .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -15.50px;
+  margin-bottom: -13.50px;
+  font-family: "Inknut Antiqua-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.dashboard .kerja {
+  display: flex;
+  width: 232px;
+  height: 74px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 156px;
+  left: 25px;
+  background-color: #6bb9ff;
+  border-radius: 23px;
+}
+
+.dashboard .sifat {
+  display: flex;
+  width: 232px;
+  height: 74px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 264px;
+  left: 25px;
+  background-color: #6bb9ff;
+  border-radius: 23px;
+}
+
+.dashboard .frame {
+  display: flex;
+  width: 232px;
+  height: 74px;
+  padding: 10px;
+  top: 372px;
+  left: 25px;
+  background-color: #6bb9ff;
+  border-radius: 23px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+}
+
+.dashboard .level {
+  position: absolute;
+  width: 281px;
+  height: 495px;
+  top: 448px;
+  left: 385px;
+  background-color: #fcfbff;
+  border-radius: 25px;
+}
+
+.dashboard .benda-2 {
+  display: flex;
+  width: 235px;
+  height: 74px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 48px;
+  left: 24px;
+  background-color: #6bb9ff;
+  border-radius: 23px;
+}
+
+.dashboard .benda-3 {
+  display: flex;
+  width: 235px;
+  height: 74px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 156px;
+  left: 24px;
+  background-color: #6bb9ff;
+  border-radius: 23px;
+}
+
+.dashboard .benda-4 {
+  display: flex;
+  width: 235px;
+  height: 74px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 264px;
+  left: 24px;
+  background-color: #6bb9ff;
+  border-radius: 23px;
+}
+
+.dashboard .benda-5 {
+  display: flex;
+  width: 235px;
+  height: 74px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 372px;
+  left: 24px;
+  background-color: #6bb9ff;
+  border-radius: 23px;
+}
+
+.dashboard .overlap-3 {
+  position: absolute;
+  width: 497px;
+  height: 360px;
+  top: 0;
+  left: 374px;
+}
+
+.dashboard .text-profile {
+  width: 229px;
+  left: 0;
+  position: absolute;
+  height: 83px;
+  top: 0;
+}
+
+.dashboard .overlap-group-2 {
+  position: relative;
+  height: 83px;
+  top: -3px;
+}
+
+.dashboard .img {
+  width: 229px;
+  height: 74px;
+  top: 9px;
+  position: absolute;
+  left: 0;
+}
+
+.dashboard .text-wrapper-3 {
+  position: absolute;
+  top: 0;
+  left: 53px;
+  -webkit-text-stroke: 2px #000000;
+  font-family: "Inknut Antiqua-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.dashboard .text-about {
+  width: 230px;
+  left: 267px;
+  position: absolute;
+  height: 83px;
+  top: 0;
+}
+
+.dashboard .overlap-4 {
+  position: relative;
+  width: 229px;
+  height: 83px;
+  top: -3px;
+}
+
+.dashboard .text-wrapper-4 {
+  position: absolute;
+  top: 0;
+  left: 59px;
+  -webkit-text-stroke: 2px #000000;
+  font-family: "Inknut Antiqua-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.dashboard .statistic {
+  position: absolute;
+  width: 494px;
+  height: 280px;
+  top: 80px;
+  left: 3px;
+}
+
+.dashboard .overlap-5 {
+  position: relative;
+  width: 493px;
+  height: 283px;
+  top: -3px;
+}
+
+.dashboard .rec-staitistic {
+  width: 493px;
+  height: 271px;
+  top: 12px;
+  position: absolute;
+  left: 0;
+}
+
+.dashboard .text-wrapper-5 {
+  position: absolute;
+  width: 159px;
+  top: 0;
+  left: 164px;
+  -webkit-text-stroke: 2px #000000;
+  font-family: "Inknut Antiqua-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.dashboard .wpm {
+  position: absolute;
+  width: 122px;
+  height: 192px;
+  top: 67px;
+  left: 30px;
+  background-image: url(./img/rectangle-23.svg);
+  background-size: 100% 100%;
+}
+
+.dashboard .overlap-group-3 {
+  position: relative;
+  width: 108px;
+  height: 159px;
+  top: 14px;
+  left: 7px;
+}
+
+.dashboard .text-wrapper-6 {
+  position: absolute;
+  width: 108px;
+  top: 0;
+  left: 0;
+  font-family: "Inknut Antiqua-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 25px;
+}
+
+.dashboard .wpm-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 50px 10px;
+  position: absolute;
+  top: 34px;
+  left: 5px;
+  background-color: #ffffff;
+  border-radius: 25px;
+}
+
+.dashboard .text-wrapper-7 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inknut Antiqua-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 25px;
+  white-space: nowrap;
+}
+
+.dashboard .akurasi {
+  height: 192px;
+  top: 67px;
+  left: 186px;
+  background-image: url(./img/image.svg);
+  background-size: 100% 100%;
+  position: absolute;
+  width: 122px;
+}
+
+.dashboard .text-wrapper-8 {
+  top: 10px;
+  left: 0;
+  font-family: "Inknut Antiqua-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 25px;
+  position: absolute;
+  width: 122px;
+}
+
+.dashboard .frame-2 {
+  display: inline-flex;
+  padding: 50px 10px;
+  top: 48px;
+  left: 12px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+}
+
+.dashboard .waktu {
+  height: 192px;
+  top: 67px;
+  left: 342px;
+  background-image: url(./img/rectangle-23-2.svg);
+  background-size: 100% 100%;
+  position: absolute;
+  width: 122px;
+}
+
+.dashboard .overlap-6 {
+  position: absolute;
+  width: 385px;
+  height: 599px;
+  top: 381px;
+  left: 761px;
+}
+
+.dashboard .REC-RANK {
+  width: 385px;
+  height: 593px;
+  top: 6px;
+  position: absolute;
+  left: 0;
+}
+
+.dashboard .rounded-rectangle {
+  position: absolute;
+  width: 328px;
+  height: 495px;
+  top: 73px;
+  left: 28px;
+  background-color: #fcfbff;
+  border-radius: 25px;
+}
+
+.dashboard .text-wrapper-9 {
+  position: absolute;
+  width: 153px;
+  top: 0;
+  left: 114px;
+  -webkit-text-stroke: 2px #000000;
+  font-family: "Inknut Antiqua-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.dashboard .play-button {
+  display: flex;
+  width: 245px;
+  height: 354px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 122px 39px;
+  position: absolute;
+  top: 56px;
+  left: 1223px;
+  border-radius: 25px;
+  border: 5px solid;
+  border-color: #712576;
+  background: linear-gradient(
+    204deg,
+    rgba(109, 209, 255, 1) 22%,
+    rgba(2, 143, 208, 1) 100%
+  );
+}
+
+.dashboard .text-wrapper-10 {
+  position: relative;
+  width: fit-content;
+  -webkit-text-stroke: 2px #000000;
+  font-family: "Inknut Antiqua-Bold", Helvetica;
+  font-weight: 700;
+  color: #fcfbff;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 25px;
+  white-space: nowrap;
+}
+
+.dashboard .home-page {
+  position: absolute;
+  width: 1440px;
+  height: 1024px;
+  top: -469px;
+  left: -7227px;
+}
+
+.dashboard .polygon {
+  position: absolute;
+  width: 28px;
+  height: 15px;
+  top: 786px;
+  left: -7084px;
+}
+body {
+  background: linear-gradient(95deg, #ff66cc, #99ccff);
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
