@@ -1,0 +1,241 @@
+.login-page {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.login-page .overlap-group-wrapper {
+  overflow-x: hidden;
+  width: 1437px;
+  height: 1024px;
+}
+
+.login-page .overlap-group {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+}
+
+.login-page .background {
+  position: absolute;
+  width: 1440px;
+  height: 1024px;
+  top: 0;
+  left: 0;
+}
+
+.login-page .icon-teknologi {
+  position: relative;
+  width: 1187px;
+  height: 842px;
+  top: 138px;
+  left: 120px;
+}
+
+.login-page .key-perspective {
+  position: absolute;
+  width: 227px;
+  height: 237px;
+  top: 472px;
+  left: 848px;
+  object-fit: cover;
+}
+
+.login-page .shield-perspective {
+  position: absolute;
+  width: 313px;
+  height: 316px;
+  top: 526px;
+  left: 0;
+  object-fit: cover;
+}
+
+.login-page .padlock-perspective {
+  position: absolute;
+  width: 195px;
+  height: 229px;
+  top: 0;
+  left: 180px;
+  object-fit: cover;
+}
+
+.login-page .settings-perspective {
+  position: absolute;
+  width: 212px;
+  height: 249px;
+  top: 0;
+  left: 975px;
+  object-fit: cover;
+}
+
+.login-page .login-toolbar {
+  position: absolute;
+  width: 654px;
+  height: 472px;
+  top: 308px;
+  left: 393px;
+  background-color: #6bb9ff80;
+  border-radius: 25px;
+}
+
+.login-page .login {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 3px 80px;
+  position: absolute;
+  top: 376px;
+  left: 207px;
+  background-color: #fd00e3;
+  border-radius: 20px;
+}
+
+.login-page .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inknut Antiqua-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.login-page .password {
+  display: flex;
+  width: 450px;
+  height: 68px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 3px 80px;
+  position: absolute;
+  top: 293px;
+  left: 102px;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.login-page .div {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inknut Antiqua-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.login-page .username {
+  display: flex;
+  width: 450px;
+  height: 68px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 3px 80px;
+  position: absolute;
+  top: 210px;
+  left: 102px;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.login-page .login-google {
+  display: flex;
+  width: 450px;
+  height: 68px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 3px 80px;
+  position: absolute;
+  top: 28px;
+  left: 102px;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.login-page .image {
+  position: relative;
+  width: 42px;
+  height: 42px;
+  margin-left: -9.50px;
+  object-fit: cover;
+}
+
+.login-page .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  margin-right: -9.50px;
+  font-family: "Inknut Antiqua-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.login-page .ket-OR {
+  position: absolute;
+  width: 452px;
+  height: 62px;
+  top: 423px;
+  left: 495px;
+}
+
+.login-page .text-wrapper-3 {
+  position: absolute;
+  top: 0;
+  left: 198px;
+  font-family: "Inknut Antiqua-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.login-page .line {
+  left: 269px;
+  position: absolute;
+  width: 181px;
+  height: 1px;
+  top: 30px;
+  object-fit: cover;
+}
+
+.login-page .img {
+  left: 0;
+  position: absolute;
+  width: 181px;
+  height: 1px;
+  top: 30px;
+  object-fit: cover;
+}
+body {
+  background: linear-gradient(95deg, #ff66cc, #99ccff);
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.logo {
+  display: block;
+  width: 400px;
+  max-width: 90%;
+  margin-bottom: 70px;
+  position: relative;
+  margin: 40px auto 0 auto;
+
+}
